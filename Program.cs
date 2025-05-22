@@ -357,6 +357,39 @@ namespace BasicProject1
             SalomBer("Ali", "Valiyevich");
             */
 
+            // 19
+            /*
+            Console.WriteLine(Faktorial(5));
+            int Faktorial(int n)
+            {
+                if(n==0)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return n * Faktorial(n - 1);
+                }
+                    
+            }
+            */
+
+            //20
+            /*
+            PrintN(5);
+
+            void PrintN(int n)
+            {
+                if(n==0)
+                {
+                    return;
+                }
+                PrintN(n-1);
+
+                Console.WriteLine(n);
+            }
+            */
+
         }
         static void SalomBer()
         {
