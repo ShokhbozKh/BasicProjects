@@ -220,7 +220,21 @@ namespace BasicProject1
             */
 
             //10
+            /*
+            Console.Write("Enter password:");
+            string password = Console.ReadLine();
 
+            while (true)
+            {
+                if(password == "12345")
+                {
+                    Console.WriteLine("Xush kelibsiz!!!");
+                    break;
+                }
+                Console.Write("Iltimos parolni qaytadan kiriting:");
+                password = Console.ReadLine();
+            }
+            */
         }
     }
 }
