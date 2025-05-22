@@ -78,9 +78,65 @@ namespace BasicProject1
             */
 
             //5
+            // simple if/else and ternary
 
+            /*
+            Console.Write("Enter your Greate: ");
+            int greate = int.Parse(Console.ReadLine());
+            */
+            /*
+            string result = (greate >= 90 && greate <= 100) ? "A" : (greate >= 80 && greate <= 89) ? "B" : (greate >= 70 && greate <= 79) ? "C" : "F";
+            Console.WriteLine(result);
+            */
+            /*
+            if(100<= greate && 90<= greate)
+            {
+                Console.WriteLine("A");
+            }
+            else if(greate>= 80 && greate<=89)
+            {
+                Console.WriteLine("B");
+            }
+            else if(greate>=70 && greate<=79)
+            {
+                Console.WriteLine("C");
+            }
+            else if(greate>=60 && greate<=69)
+            {
+                Console.WriteLine("D");
+            }
+            else if(greate>=0 && greate<=59)
+            {
+                Console.WriteLine("F");
+            }
+            else
+            {
+                Console.WriteLine("Xatolik");
+            }
+            */
+            // 6
+            /*
+            Console.Write("Enter two numbers with space: ");
+            int[] numbers  = Console.ReadLine()
+                                    .Split(' ')
+                                    .Select(int.Parse)
+                                    .ToArray();
 
+            if (numbers[0]>numbers[1])
+            {
+                Console.WriteLine(numbers[0]);
+            }
+            else if (numbers[0]<numbers[1])
+            {
+                Console.WriteLine(numbers[1]);
+            }
+            else
+            {
+                Console.WriteLine($"{numbers[0]} == {numbers[1]}");
+            }
+            */
 
+            //7
         }
     }
 }
