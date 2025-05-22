@@ -55,6 +55,31 @@ namespace BasicProject1
             Console.WriteLine($"Your balance: {oylik}");
             */
 
+            //4
+            /*
+            Console.Write("Enter any Number: ");
+            string number = Console.ReadLine();
+            bool resultInt = int.TryParse(number, out int resultI);
+            bool resultDouble = double.TryParse(number, out double resultD);
+
+            if (resultInt)
+            {
+                Console.WriteLine($"this is int type {Math.Pow(resultI, 2)}");
+            }
+            else if (resultDouble)
+            {
+                Console.WriteLine($"this is double type {Math.Sqrt(resultD)}");
+            }
+            else
+            {
+                Console.WriteLine("Error ");
+            }
+
+            */
+
+            //5
+
+
 
         }
     }
