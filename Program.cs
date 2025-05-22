@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace BasicProject1
 {
@@ -284,6 +285,42 @@ namespace BasicProject1
             }
              */
 
+            //13
+            /*
+            ReverseName("Ali", "Vali");
+
+            static void ReverseName(string fName, string lName )
+            {
+
+                Console.WriteLine($"{fName} {lName}");
+                string? text = null;
+
+                for(int i=fName.Length-1; i>=0; i--)
+                {
+                    text += fName[i];
+                }
+                text += ",";
+                for (int i = lName.Length - 1; i >= 0; i--)
+                {
+                    text += lName[i];
+                }
+                Console.WriteLine(text);
+            }
+            */
+
+            //14
+            /*
+            StringBuilder sb = new StringBuilder();
+            
+            for(int i=1; i<=5; i++)
+            {
+                Console.Write($"{i}- matnni kiriting:");
+                string text = Console.ReadLine();
+                sb.Append( text );
+
+            }
+            Console.WriteLine(sb);
+            */
 
 
         }
