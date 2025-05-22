@@ -322,6 +322,26 @@ namespace BasicProject1
             Console.WriteLine(sb);
             */
 
+            //15
+            /*
+            Console.WriteLine(IsAge(15));
+
+            static bool IsAge(int age)
+            {
+
+                return (age>= 18)? true : false;
+            }
+            */
+
+            //16
+            /*
+            Console.WriteLine(ReturnNumber(4,4));
+
+            static int ReturnNumber(int n1, int n2)
+            {
+                return (n1 > n2) ? n1 : (n1 == n2)? 0: n2;
+            }
+            */
 
         }
     }
