@@ -235,6 +235,57 @@ namespace BasicProject1
                 password = Console.ReadLine();
             }
             */
+
+            //11
+            /*
+            int[] arr = new int[4];
+            Random rnd = new Random();
+            
+
+            for(int i=0; i < arr.Length; i++)
+            {
+                arr[i] = rnd.Next(1,10);
+            }
+
+            int max = arr.Max();
+            int min = arr.Min();
+            Array.Sort(arr);
+
+            foreach (int i in arr)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine($"Min:{arr[0]}\n Max: {arr[arr.Length-1]}\n");
+            Console.WriteLine($"Max: {max}\n Min: {min}");
+            */
+
+            // 12 -> 3x3
+            /*
+            Random rnd = new Random();
+
+            int[,] arr = new int[3, 3];
+
+            for(int i=0; i< arr.GetLength(0); i++)
+            {
+                for(int j=0; j< arr.GetLength(1); j++)
+                {
+                    arr[i, j] = rnd.Next(1, 10);
+                }
+            }
+
+            for(int i=0; i< arr.GetLength(0); i++)
+            {
+                for(int j=0 ; j< arr.GetLength(1);j++)
+                {
+                    Console.Write(arr[i,j] + " ");
+                }
+                Console.WriteLine();
+            }
+             */
+
+
+
         }
     }
 }
