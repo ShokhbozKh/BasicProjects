@@ -343,6 +343,47 @@ namespace BasicProject1
             }
             */
 
+            //17
+            /*
+            Hisobla(5);
+            Hisobla(12,13);
+            Hisobla(49.0);
+            */
+
+            //18
+            /*
+            SalomBer();
+            SalomBer("Ali");
+            SalomBer("Ali", "Valiyevich");
+            */
+
+        }
+        static void SalomBer()
+        {
+            Console.WriteLine("Assalomu alaykum");
+        }
+        static void SalomBer(string name)
+        {
+            Console.WriteLine($"Assalomu alaykum {name}");
+        }
+        static void SalomBer(string firstName, string lastName)
+        {
+            Console.WriteLine($"Assalomu alaykum {firstName}, {lastName}");
+        }
+
+
+        static void Hisobla(int n)
+        {
+            double result = (Math.Pow(n, 2));
+            Console.WriteLine(result);
+        }
+        static void Hisobla(int n1, int n2)
+        {
+            Console.WriteLine(n1 + n2);
+        }
+        static void Hisobla(double n)
+        {
+            Console.WriteLine(Math.Sqrt(n));
         }
     }
 }
